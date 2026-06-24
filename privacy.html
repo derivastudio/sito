@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Deriva Studio</title>
+<meta name="description" content="Privacy Policy di Deriva Studio. Informativa sul trattamento dei dati personali ai sensi del Regolamento UE 2016/679 (GDPR).">
+<meta name="robots" content="index, follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,500;0,700;1,500&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #111110;
+    --bg: #FCFBF8;
+    --ink: #1A1A18;
+    --ink-muted: #5C5C58;
+    --ink-faint: #9A9A95;
+    --line: rgba(0,0,0,0.08);
+    --violet: #2563EB;
+    --violet-dark: #1D4ED8;
+    --font-display: 'Bodoni Moda', 'Times New Roman', serif;
+    --font-mono: 'IBM Plex Mono', 'SF Mono', monospace;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+    --max: 760px;
+    --page-margin: clamp(1.5rem, 5vw, 3rem);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  header {
+    position: sticky; top: 0;
+    background: rgba(252, 251, 248, 0.92);
+    backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--line);
+    z-index: 10;
+  }
+  .nav-inner {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 1.1rem var(--page-margin);
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 1rem;
+  }
+  .logo {
+    font-family: var(--font-display); font-weight: 700; font-size: 1.3rem;
+    letter-spacing: -0.02em; color: var(--ink);
+    text-decoration: none;
+    display: inline-flex; align-items: baseline; gap: 0.05em;
+  }
+  .logo-dot { color: var(--violet); }
+  .back-link {
+    font-family: var(--font-mono); font-size: 0.72rem;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--ink-muted); text-decoration: none;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 2px;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .back-link:hover { color: var(--violet); border-color: var(--violet); }
+  .lang-toggle {
+    display: inline-flex; border: 1px solid var(--line); border-radius: 999px;
+    overflow: hidden; font-family: var(--font-mono); font-size: 0.7rem;
+    letter-spacing: 0.14em;
+  }
+  .lang-toggle button {
+    background: transparent; border: 0; padding: 0.4rem 0.85rem;
+    cursor: pointer; color: var(--ink-muted);
+    font-family: inherit; font-size: inherit; letter-spacing: inherit;
+    text-transform: uppercase;
+  }
+  .lang-toggle button.active { background: var(--violet); color: #fff; }
+  main {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: clamp(2.5rem, 8vh, 5rem) var(--page-margin) clamp(4rem, 10vh, 7rem);
+  }
+  .eyebrow {
+    font-family: var(--font-mono); font-size: 0.72rem;
+    letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--violet);
+    margin: 0 0 1.1rem 0;
+  }
+  h1 {
+    font-family: var(--font-display); font-weight: 500;
+    font-size: clamp(2.2rem, 6vw, 3.4rem); line-height: 1.05;
+    letter-spacing: -0.01em;
+    margin: 0 0 2.2rem 0; color: var(--ink);
+  }
+  h2 {
+    font-family: var(--font-display); font-weight: 500;
+    font-size: clamp(1.3rem, 3vw, 1.7rem); line-height: 1.2;
+    margin: 2.6rem 0 0.9rem 0; color: var(--ink);
+  }
+  h3 {
+    font-family: var(--font-sans); font-weight: 600;
+    font-size: 1rem; margin: 1.6rem 0 0.5rem 0; color: var(--ink);
+  }
+  p { margin: 0 0 1rem 0; color: var(--ink); }
+  ul { margin: 0 0 1rem 0; padding-left: 1.2rem; }
+  li { margin-bottom: 0.4rem; }
+  a { color: var(--violet); text-decoration: underline; text-underline-offset: 3px; }
+  a:hover { color: var(--violet-dark); }
+  .meta {
+    font-family: var(--font-mono); font-size: 0.78rem;
+    color: var(--ink-faint); margin: 0 0 0 0;
+    padding: 1rem 0 0;
+    border-top: 1px solid var(--line);
+  }
+  .lang-section { display: none; }
+  .lang-section.active { display: block; }
+  footer.legal {
+    border-top: 1px solid var(--line);
+    padding: 2rem var(--page-margin);
+    text-align: center;
+    font-family: var(--font-mono); font-size: 0.7rem;
+    color: var(--ink-faint); letter-spacing: 0.05em;
+  }
+  footer.legal a { color: var(--ink-muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      DERIVA<span class="logo-dot">.</span>
+    </a>
+    <div style="display:flex; align-items:center; gap:1rem;">
+      <a href="index.html" class="back-link" data-it="← Torna al sito" data-en="← Back to site">← Torna al sito</a>
+      <div class="lang-toggle">
+        <button class="lang-it active" onclick="setLang('it')">IT</button>
+        <button class="lang-en" onclick="setLang('en')">EN</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ITALIAN -->
+<section class="lang-section lang-section-it active">
+  <p class="eyebrow">Informativa Privacy</p>
+  <h1>Privacy Policy</h1>
+
+  <p>La presente informativa descrive le modalità di trattamento dei dati personali degli utenti che interagiscono con il sito <strong>derivastudio.it</strong>, ai sensi del Regolamento (UE) 2016/679 (di seguito, "GDPR").</p>
+
+  <h2>Titolare del trattamento</h2>
+  <p>Il titolare del trattamento è <strong>Deriva Studio di Francesca Nuzzo</strong>, con sede in Via Rossini 21, 73100 Lecce (LE), P.IVA 05103890751.</p>
+  <p>Per qualsiasi richiesta puoi scrivere a: <a href="mailto:hello@derivastudio.it">hello@derivastudio.it</a></p>
+
+  <h2>Dati raccolti e finalità</h2>
+  <p>Il sito raccoglie i seguenti dati personali esclusivamente quando l'utente compila il modulo di contatto:</p>
+  <ul>
+    <li><strong>Nome</strong></li>
+    <li><strong>Indirizzo email</strong></li>
+    <li><strong>Contenuto del messaggio</strong></li>
+  </ul>
+  <p>Questi dati sono utilizzati per il solo scopo di <strong>rispondere alla richiesta inviata</strong> dall'utente. Non vengono utilizzati per finalità di marketing, profilazione o cessione a terzi.</p>
+
+  <h2>Base giuridica</h2>
+  <p>Il trattamento si fonda sul <strong>consenso esplicito</strong> dell'utente, prestato al momento dell'invio del modulo, ai sensi dell'art. 6, lett. a) del GDPR.</p>
+
+  <h2>Modalità del trattamento e servizi terzi</h2>
+  <p>Le richieste inviate tramite il modulo di contatto vengono gestite attraverso il servizio <strong>Formspree</strong> (Formspree Inc., USA), che agisce in qualità di Responsabile del trattamento. Formspree riceve i dati e li inoltra via email al titolare. Per maggiori informazioni: <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy di Formspree</a>.</p>
+  <p>Il trasferimento di dati personali verso paesi extra-UE (Stati Uniti) avviene sulla base delle Clausole Contrattuali Standard approvate dalla Commissione Europea.</p>
+
+  <h2>Conservazione dei dati</h2>
+  <p>I dati raccolti tramite il modulo di contatto vengono conservati per il tempo strettamente necessario a gestire la richiesta e, comunque, non oltre <strong>24 mesi</strong> dal ricevimento, salvo che da tale comunicazione si instauri un rapporto contrattuale o commerciale, nel qual caso si applicano i termini di conservazione previsti dalla normativa fiscale e civilistica.</p>
+
+  <h2>Cookie</h2>
+  <p>Questo sito <strong>non utilizza cookie di profilazione</strong> né cookie di terze parti per finalità di marketing o analisi. Possono essere utilizzati esclusivamente cookie tecnici, strettamente necessari al funzionamento del sito, per i quali non è richiesto il consenso dell'utente.</p>
+
+  <h2>Diritti dell'utente</h2>
+  <p>In qualità di interessato, hai il diritto di:</p>
+  <ul>
+    <li>Accedere ai tuoi dati personali (art. 15 GDPR)</li>
+    <li>Richiederne la rettifica o la cancellazione (artt. 16-17 GDPR)</li>
+    <li>Richiedere la limitazione del trattamento (art. 18 GDPR)</li>
+    <li>Opporti al trattamento (art. 21 GDPR)</li>
+    <li>Richiedere la portabilità dei dati (art. 20 GDPR)</li>
+    <li>Revocare il consenso prestato in qualsiasi momento, senza pregiudicare la liceità del trattamento basata sul consenso prima della revoca</li>
+    <li>Proporre reclamo al Garante per la Protezione dei Dati Personali (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">www.garanteprivacy.it</a>)</li>
+  </ul>
+  <p>Per esercitare i tuoi diritti puoi scrivere a <a href="mailto:hello@derivastudio.it">hello@derivastudio.it</a>.</p>
+
+  <h2>Modifiche all'informativa</h2>
+  <p>La presente informativa può essere aggiornata nel tempo. La versione più recente è sempre pubblicata su questa pagina.</p>
+
+  <p class="meta">Ultimo aggiornamento: giugno 2026</p>
+</section>
+
+<!-- ENGLISH -->
+<section class="lang-section lang-section-en">
+  <p class="eyebrow">Privacy Notice</p>
+  <h1>Privacy Policy</h1>
+
+  <p>This notice describes how personal data of users interacting with the website <strong>derivastudio.it</strong> are processed, in accordance with EU Regulation 2016/679 ("GDPR").</p>
+
+  <h2>Data Controller</h2>
+  <p>The Data Controller is <strong>Deriva Studio di Francesca Nuzzo</strong>, based in Via Rossini 21, 73100 Lecce (LE), Italy. VAT no. 05103890751.</p>
+  <p>For any request, please write to: <a href="mailto:hello@derivastudio.it">hello@derivastudio.it</a></p>
+
+  <h2>Data collected and purposes</h2>
+  <p>This website collects the following personal data exclusively when the user submits the contact form:</p>
+  <ul>
+    <li><strong>Name</strong></li>
+    <li><strong>Email address</strong></li>
+    <li><strong>Message content</strong></li>
+  </ul>
+  <p>These data are used for the sole purpose of <strong>responding to the user's request</strong>. They are not used for marketing, profiling, or shared with third parties.</p>
+
+  <h2>Legal basis</h2>
+  <p>Processing is based on the user's <strong>explicit consent</strong>, given when submitting the contact form, pursuant to Art. 6(1)(a) of the GDPR.</p>
+
+  <h2>Processing methods and third-party services</h2>
+  <p>Requests submitted via the contact form are handled through <strong>Formspree</strong> (Formspree Inc., USA), acting as Data Processor. Formspree receives the data and forwards them by email to the Controller. More info: <a href="https://formspree.io/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Formspree Privacy Policy</a>.</p>
+  <p>Transfers of personal data to non-EU countries (United States) are based on the Standard Contractual Clauses approved by the European Commission.</p>
+
+  <h2>Data retention</h2>
+  <p>Data collected via the contact form are kept for the time strictly necessary to handle the request and, in any case, no longer than <strong>24 months</strong> from receipt, unless a contractual or commercial relationship arises from such communication, in which case retention terms set by tax and civil law apply.</p>
+
+  <h2>Cookies</h2>
+  <p>This site <strong>does not use profiling cookies</strong> or third-party cookies for marketing or analytics purposes. Only technical cookies strictly necessary to the functioning of the site may be used, for which no user consent is required.</p>
+
+  <h2>User rights</h2>
+  <p>As a data subject, you have the right to:</p>
+  <ul>
+    <li>Access your personal data (Art. 15 GDPR)</li>
+    <li>Request rectification or erasure (Arts. 16-17 GDPR)</li>
+    <li>Request restriction of processing (Art. 18 GDPR)</li>
+    <li>Object to processing (Art. 21 GDPR)</li>
+    <li>Request data portability (Art. 20 GDPR)</li>
+    <li>Withdraw your consent at any time, without affecting the lawfulness of processing based on consent before its withdrawal</li>
+    <li>Lodge a complaint with the Italian Data Protection Authority (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">www.garanteprivacy.it</a>)</li>
+  </ul>
+  <p>To exercise your rights, please contact <a href="mailto:hello@derivastudio.it">hello@derivastudio.it</a>.</p>
+
+  <h2>Changes to this notice</h2>
+  <p>This notice may be updated over time. The latest version is always published on this page.</p>
+
+  <p class="meta">Last updated: June 2026</p>
+</section>
+
+</main>
+
+<footer class="legal">
+  Deriva Studio di Francesca Nuzzo · P.IVA 05103890751 · Via Rossini 21, 73100 Lecce (LE) · <a href="mailto:hello@derivastudio.it">hello@derivastudio.it</a>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.documentElement.lang = lang;
+    document.querySelectorAll('.lang-section').forEach(s => s.classList.remove('active'));
+    document.querySelector('.lang-section-' + lang).classList.add('active');
+    document.querySelectorAll('.lang-toggle button').forEach(b => b.classList.remove('active'));
+    document.querySelector('.lang-' + lang).classList.add('active');
+    document.querySelectorAll('[data-it][data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+    try { localStorage.setItem('deriva-lang', lang); } catch(e) {}
+  }
+  try {
+    var saved = localStorage.getItem('deriva-lang');
+    if (saved === 'en') setLang('en');
+  } catch(e) {}
+</script>
+
+</body>
+</html>
